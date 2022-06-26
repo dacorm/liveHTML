@@ -1,0 +1,6 @@
+.header {
+    width: calc(100% - 270px);
+    height: 300px;
+    margin: 0 135px;
+    background: #FFF;
+}

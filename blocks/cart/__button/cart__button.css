@@ -1,0 +1,11 @@
+.cart__button {
+    display: flex;
+    border: 0;
+    background: #FFFFFF;
+    padding: 0;
+    margin-bottom: 12px;
+}
+
+.cart__button:last-of-type {
+    margin-bottom: 0;
+}

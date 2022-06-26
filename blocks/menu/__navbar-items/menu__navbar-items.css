@@ -1,0 +1,8 @@
+.menu__navbar-items {
+    display: flex;
+    height: min-content;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}

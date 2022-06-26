@@ -1,0 +1,14 @@
+.cart__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 74px;
+    height: 74px;
+    box-sizing: border-box;
+    margin-right: 15px;
+    border: 1px solid #D9D9D9;
+}
+
+.cart__item:last-of-type {
+    margin-right: 0px;
+}
