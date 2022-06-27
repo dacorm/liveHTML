@@ -8,3 +8,9 @@
     padding-bottom: 8px;
     margin: 16px 0 0 30px;
 }
+
+@media screen and (max-width: 767px) {
+    .menu__navbar {
+        margin: 16px 15px 0 15px;
+    }
+}
