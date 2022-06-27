@@ -1,0 +1,19 @@
+.schedule {
+    margin: 19px 0 0 56px;
+    display: flex;
+    flex-direction: column;
+    width: 185px;
+    padding-right: 2px;
+}
+
+@media screen and (max-width: 1023px) {
+    .schedule {
+        margin-left: 36px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .schedule {
+        margin: 0 auto;
+    }
+}

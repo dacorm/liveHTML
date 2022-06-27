@@ -1,0 +1,6 @@
+.navbar__item_active {
+    width: 131px;
+    background: #FFCC00;
+    color: black;
+    height: 100%;
+}

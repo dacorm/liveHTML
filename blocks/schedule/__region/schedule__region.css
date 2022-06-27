@@ -1,0 +1,6 @@
+.scheudle__region {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #D7D7D7;
+    padding-top: 2px;
+}

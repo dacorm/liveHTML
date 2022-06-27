@@ -4,8 +4,14 @@
     background: #FFFFFF;
     padding: 0;
     margin-bottom: 12px;
+    transition: .3s linear;
 }
 
 .cart__button:last-of-type {
     margin-bottom: 0;
+}
+
+.cart__button:hover {
+    opacity: .6;
+    cursor: pointer;
 }

@@ -1,0 +1,17 @@
+.navbar__sale-text {
+    margin: 0;
+    width: 98px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+@media screen and (max-width: 1023px) {
+    .navbar__sale-text {
+        margin-right: 5px;
+    }
+}

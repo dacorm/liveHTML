@@ -1,0 +1,13 @@
+.navbar__link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navbar__link:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.navbar__item:hover .navbar__link {
+    color: black;
+}

@@ -1,0 +1,24 @@
+.navbar {
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1170px;
+    height: 34px;
+    background: #252525;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1023px) {
+    .navbar {
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar {
+        max-width: 830px;
+        margin: 26px 20px 0 20px;
+    }
+}

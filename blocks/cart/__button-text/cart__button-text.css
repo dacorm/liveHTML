@@ -1,13 +1,13 @@
 .cart__button-text {
     margin: 0;
     padding: 0;
-    max-width: 105px;
+    width: 105px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.025em;;
     text-decoration-line: underline;
     color: #252525;
-    text-align: right;
+    text-align: left;
 }

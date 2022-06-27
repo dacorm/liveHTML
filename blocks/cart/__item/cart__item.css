@@ -10,5 +10,22 @@
 }
 
 .cart__item:last-of-type {
-    margin-right: 0px;
+    margin-right: 0;
+}
+
+@media screen and (max-width: 424px) {
+    .cart__item {
+        width: 54px;
+        height: 54px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .cart__item {
+        margin: 0 0 15px 0;
+    }
+
+    .cart__item:last-of-type {
+        margin: 0;
+    }
 }

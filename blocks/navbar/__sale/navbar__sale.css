@@ -1,0 +1,15 @@
+.navbar__sale {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 127px;
+    height: 100%;
+    background: #FFCC00;
+    border-radius: 0 10px 10px 0;
+}
+
+@media screen and (max-width: 1439px) {
+    .navbar__sale {
+        margin-left: 10px;
+    }
+}

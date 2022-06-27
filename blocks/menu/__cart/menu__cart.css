@@ -1,3 +1,9 @@
 .menu__cart {
     display: flex;
 }
+
+@media screen and (max-width: 767px) {
+    .menu__cart {
+        flex-direction: column;
+    }
+}

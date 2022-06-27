@@ -5,3 +5,23 @@
     border: 0;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 1439px) {
+    .menu__cart-banner {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .menu__cart-banner {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .menu__cart-banner {
+        width: 253px;
+        margin: 22px auto 0 auto;
+        height: 74px;
+    }
+}

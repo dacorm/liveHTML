@@ -3,3 +3,16 @@
     padding-left: 30px;
     margin-top: 22px;
 }
+
+@media screen and (max-width: 1023px) {
+    .cart {
+        padding-left: 0;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cart {
+        margin: 25px auto;
+    }
+}

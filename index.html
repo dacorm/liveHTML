@@ -8,68 +8,136 @@
     <link rel="stylesheet" href="./pages/index.css">
     <title>Магазин инструментов</title>
 </head>
-<body>
+<body class="root">
 <div class="page">
+    <div class="overlay">
+        <ul class="overlay__items">
+            <li class="overlay__item"><a href="#" class="overlay__item-link">Каталог инструментов</a></li>
+            <li class="overlay__item"><a href="#" class="overlay__item-link">Все для сада</a></li>
+            <li class="overlay__item"><a href="#" class="overlay__item-link">Ручной инcтрумент</a></li>
+            <li class="overlay__item"><a href="#" class="overlay__item-link">Электрика</a></li>
+            <li class="overlay__item"><a href="#" class="overlay__item-link">Доставка</a></li>
+            <li class="overlay__item"><a href="#" class="overlay__item-link">Оплата</a></li>
+            <li class="overlay__item"><a href="#" class="overlay__item-link">О нас</a></li>
+        </ul>
+    </div>
     <header class="header">
         <div class="header__up">
-        <div class="logo"></div>
-        <div class="menu">
-            <nav class="menu__navbar">
-                <ul class="menu__navbar-items">
-                    <li class="menu__navbar-item">Каталог инструментов</li>
-                    <li class="menu__navbar-item">Все для сада</li>
-                    <li class="menu__navbar-item">Ручной инcтрумент</li>
-                    <li class="menu__navbar-item">Электрика</li>
-                    <li class="menu__navbar-item">Доставка</li>
-                    <li class="menu__navbar-item">Оплата</li>
-                    <li class="menu__navbar-item">О нас</li>
-                </ul>
-                <div class="login">
-                    <p class="login__text">Вход</p>
-                    <div class="login__line"></div>
-                    <p class="login__text">Регистрация</p>
-                </div>
-            </nav>
-            <div class="menu__cart">
-                <div class="menu__cart-banner"></div>
-                <div class="cart">
-                    <ul class="cart__buttons">
-                        <li class="cart__button">
-                            <button class="cart__button">
-                            <img src="./images/cart.svg" alt="Иконка Корзины" class="cart__button-img">
-                            <p class="cart__button-text">3 шт. / 17 250 р.</p>
-                            </button>
+            <div class="logo"></div>
+            <div class="menu">
+                <nav class="menu__navbar">
+                    <div class="hamburger">
+                        <span class="hamburger__bar"></span>
+                        <span class="hamburger__bar"></span>
+                        <span class="hamburger__bar"></span>
+                    </div>
+                    <ul class="menu__navbar-items">
+                        <li class="menu__navbar-item"><a href="#" class="menu__navbar-link">Каталог инструментов</a>
                         </li>
-                        <li class="cart__button">
-                            <button class="cart__button">
-                                <img src="./images/star.svg" alt="Звездочка" class="cart__button-img">
-                                <p class="cart__button-text">Избранное (7)</p>
-                            </button>
-                        </li>
-                        <li class="cart__button">
-                            <button class="cart__button">
-                                <img src="./images/balance%201.svg" alt="Весы" class="cart__button-img">
-                                <p class="cart__button-text">К сравнению (5)</p>
-                            </button>
-                        </li>
+                        <li class="menu__navbar-item"><a href="#" class="menu__navbar-link">Все для сада</a></li>
+                        <li class="menu__navbar-item"><a href="#" class="menu__navbar-link">Ручной инcтрумент</a></li>
+                        <li class="menu__navbar-item"><a href="#" class="menu__navbar-link">Электрика</a></li>
+                        <li class="menu__navbar-item"><a href="#" class="menu__navbar-link">Доставка</a></li>
+                        <li class="menu__navbar-item"><a href="#" class="menu__navbar-link">Оплата</a></li>
+                        <li class="menu__navbar-item"><a href="#" class="menu__navbar-link">О нас</a></li>
                     </ul>
-                    <ul class="cart__items">
-                        <li class="cart__item">
-                            <img src="./images/1.png" alt="Дрель" class="cart__item-img">
-                        </li>
-                        <li class="cart__item">
-                            <img src="./images/2.png" alt="Дрель" class="cart__item-img">
-                        </li>
-                        <li class="cart__item">
-                            <img src="./images/3.png" alt="Дрель" class="cart__item-img">
-                        </li>
-                    </ul>
+                    <div class="login">
+                        <a href="#" class="login__text">Вход</a>
+                        <div class="login__line"></div>
+                        <a href="#" class="login__text">Регистрация</a>
+                    </div>
+                </nav>
+                <div class="menu__cart">
+                    <div class="menu__cart-banner"></div>
+                    <div class="cart">
+                        <ul class="cart__buttons">
+                            <li class="cart__button">
+                                <button class="cart__button" type="button">
+                                    <img src="./images/cart.svg" alt="Иконка Корзины" class="cart__button-img">
+                                    <p class="cart__button-text">3 шт. / 17 250 р.</p>
+                                </button>
+                            </li>
+                            <li class="cart__button">
+                                <button class="cart__button" type="button">
+                                    <img src="./images/star.svg" alt="Звездочка" class="cart__button-img">
+                                    <p class="cart__button-text">Избранное (7)</p>
+                                </button>
+                            </li>
+                            <li class="cart__button">
+                                <button class="cart__button" type="button">
+                                    <img src="./images/balance%201.svg" alt="Весы" class="cart__button-img">
+                                    <p class="cart__button-text">К сравнению (5)</p>
+                                </button>
+                            </li>
+                        </ul>
+                        <ul class="cart__items">
+                            <li class="cart__item">
+                                <img src="./images/1.png" alt="Дрель" class="cart__item-img">
+                            </li>
+                            <li class="cart__item">
+                                <img src="./images/2.png" alt="Дрель" class="cart__item-img">
+                            </li>
+                            <li class="cart__item">
+                                <img src="./images/3.png" alt="Дрель" class="cart__item-img">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="schedule">
+                        <div class="scheudle__workhours">
+                            <p class="scheudle__workhours-text">Время работы:</p>
+                            <p class="scheudle__workhours-text scheudle__workhours-text_numbers">10:00 — 19:00</p>
+                        </div>
+                        <p class="schedule__number">
+                            8 495 721-25-25
+                        </p>
+                        <div class="scheudle__region">
+                            <p class="schedule__region-text">
+                                Москва
+                            </p>
+                            <div class="schedule__region-change">
+                                <img src="./images/Vector%2035.svg" alt="Стрелка вправо" class="schedule__region-img">
+                                <p class="schedule__region-text schedule__region-text_change">сменить</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="schedule"></div>
             </div>
         </div>
+        <div class="header__down">
+            <nav class="navbar">
+                <div class="navbar__search">
+                    <img src="./images/entypo_magnifying-glass.svg" alt="Иконка лупы" class="navbar__search-img">
+                </div>
+                <ul class="navbar__items">
+                    <li class="navbar__item  navbar__item_active">
+                        <div class="navbar__item-wrap"><a href="#" class="navbar__link">Перфораторы</a></div>
+                    </li>
+                    <li class="navbar__item">
+                        <div class="navbar__item-wrap"><a href="#" class="navbar__link">Дрели</a></div>
+                    </li>
+                    <li class="navbar__item">
+                        <div class="navbar__item-wrap"><a href="#" class="navbar__link">Шлифмашины</a></div>
+                    </li>
+                    <li class="navbar__item">
+                        <div class="navbar__item-wrap"><a href="#" class="navbar__link">Пистолеты</a></div>
+                    </li>
+                    <li class="navbar__item">
+                        <div class="navbar__item-wrap"><a href="#" class="navbar__link">Электропилы</a></div>
+                    </li>
+                    <li class="navbar__item">
+                        <div class="navbar__item-wrap"><a href="#" class="navbar__link">Наборы инструментов</a></div>
+                    </li>
+                    <li class="navbar__item">
+                        <div class="navbar__item-wrap"><a href="#" class="navbar__link">Акксесуары</a></div>
+                    </li>
+                </ul>
+                <div class="navbar__sale">
+                    <p class="navbar__sale-text">Распродажа</p>
+                </div>
+            </nav>
         </div>
     </header>
 </div>
+<script src="./scripts/index.js"></script>
 </body>
 </html>

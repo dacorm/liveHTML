@@ -1,0 +1,10 @@
+.schedule__number {
+    width: 184px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #252525;
+    margin: 15px 0 14px 0;
+}

@@ -2,3 +2,10 @@
     width: 60px;
     height: 60px;
 }
+
+@media screen and (max-width: 424px) {
+    .cart__item-img {
+        width: 40px;
+        height: 40px;
+    }
+}

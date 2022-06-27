@@ -1,0 +1,9 @@
+.schedule__region-change {
+    display: flex;
+    transition: .3s linear;
+}
+
+.schedule__region-change:hover {
+    opacity: .6;
+    cursor: pointer;
+}

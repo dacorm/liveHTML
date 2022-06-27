@@ -1,0 +1,24 @@
+.navbar__search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 100%;
+    background: #FFCC00;
+    border-radius: 10px 0 0 10px;
+    transition: .3s linear;
+}
+
+.navbar__search:hover {
+    cursor: pointer;
+}
+
+.navbar__search:hover .navbar__search-img {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1439px) {
+    .navbar__search {
+        margin-right: 10px;
+    }
+}
